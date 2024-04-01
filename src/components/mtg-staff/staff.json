@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_mtg_staff_staff",
+  "info": {
+    "displayName": "Staff",
+    "icon": "handHeart"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "text"
+    },
+    "PhoneNumber": {
+      "type": "text"
+    },
+    "Photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}
